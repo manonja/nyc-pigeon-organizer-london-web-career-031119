@@ -12,7 +12,7 @@ organized_list = {}
         if !organized_list[name].has_key?(attributes)
         organized_list[name][attributes] = []
         end
-
+        
         if !organized_list[name][attributes].include?(specs)
         organized_list[name][attributes] << specs.to_s 
         end
